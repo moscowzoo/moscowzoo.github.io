@@ -1,0 +1,10 @@
+.cell{
+	width:40%;
+	margin:50px;
+	float:left;
+}
+.cell-big{
+	margin:20px auto;
+	width:55%;
+	text-align:center;
+}

@@ -1,0 +1,67 @@
+.head{
+	width:100%;
+	clear:both;
+}
+.row{
+	color:#000;
+	max-width: 1024px;
+    margin: 50px auto;
+    width: 60%;
+	padding: 0 30px 5px 30px;
+}
+.photo-block{
+	float: left;
+    width: 205px;
+}
+.photo{
+	display: block;
+    width: 180px;
+    border: 12px solid rgba(0,0,0,0.25);
+	    -webkit-border-radius: 50%;
+}
+.text{
+	float: right;
+    width: 605px;
+	text-align: justify;
+}
+.info{
+	position: relative;
+    padding: 20px 0 25px 0;
+    min-height: 114px;
+}
+.info .box {
+    margin: 0 0 12px 0;
+    padding: 3px 0 3px 40px;
+    min-height: 20px;
+}
+.group-size {
+    background: url(../img/icon1.png) left top no-repeat;
+}
+.duration {
+    background: url(../img/icon2.png) 2px top no-repeat;
+}
+.age {
+    background: url(../img/icon3.png) 6px top no-repeat;
+}
+.price-box {
+    position: absolute;
+    bottom: 27px;
+    right: 0;
+    text-align: center;
+}
+.price {
+    margin: 0 27px 0 0;
+    padding: 10px 23px 0 37px;
+    background: url(../img/ruble.png) right 15px no-repeat;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+h5 {
+    margin: 0 0 35px 0;
+    padding: 5px 0 0 0;
+    font-size: 30px;
+}
